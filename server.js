@@ -1,6 +1,6 @@
 const express = require('express')
 const { resolve } = require('path')
-const app = expresss()
+const app = express()
 
 app.use('/', 
     express.static(
