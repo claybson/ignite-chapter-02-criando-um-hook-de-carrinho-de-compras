@@ -13,6 +13,11 @@ export const ProductList = styled.ul`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: scale(1.02);
+    }
 
     img {
       align-self: center;
@@ -33,7 +38,7 @@ export const ProductList = styled.ul`
     }
 
     button {
-      background: #7159c1;
+      background: #04d361;
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -45,7 +50,7 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, '#04d361')};
       }
 
       div {
